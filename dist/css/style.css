@@ -310,6 +310,8 @@ table tr:last-child {
 table thead th,
 table thead td {
 	border: none;
+	color: #648880;
+	font-size: 24px;
 }
 table h4 {
 	margin-bottom: 0px;
