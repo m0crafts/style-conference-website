@@ -320,10 +320,7 @@ table h4 {
 table a {
 	color: #888;
 }
-a {
-	color: #648880;
-	text-decoration: none;
-}
+
 tr > th {
 	padding-right: 30px;
 	border: none;
