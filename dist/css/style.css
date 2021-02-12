@@ -303,6 +303,9 @@ table tr {
 	padding-bottom: 300px;
 	border-bottom: #dfe2e5 1px solid;
 }
+table tr:last-child {
+	border-bottom: none;
+}
 
 table thead th,
 table thead td {
