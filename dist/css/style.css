@@ -330,4 +330,7 @@ tr > th {
 td {
 	padding: 20px;
 	border-top: 1px solid #dfe2e5;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	color: #888;
 }
