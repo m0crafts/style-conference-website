@@ -301,7 +301,7 @@ table {
 }
 table tr {
 	padding-bottom: 300px;
-	border-bottom: #dfe2e5 1px solid;
+	/* border-bottom: #dfe2e5 1px solid; */
 }
 table tr:last-child {
 	border-bottom: none;
@@ -319,9 +319,9 @@ table a {
 	color: #293f50;
 }
 
-th {
+tr > th {
 	padding-right: 30px;
-
+	border: none;
 	line-height: 44px;
 }
 
