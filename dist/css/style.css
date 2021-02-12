@@ -291,3 +291,38 @@ h5 {
 p > a {
 	border-bottom: 1px dotted #648880;
 }
+
+/* Schedule */
+table {
+	margin: 44px 0;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table tr {
+	padding-bottom: 300px;
+	border-bottom: #dfe2e5 1px solid;
+}
+
+table thead th,
+table thead td {
+	border: none;
+}
+table h4 {
+	margin-bottom: 0px;
+}
+
+table a {
+	color: #293f50;
+}
+
+th {
+	padding-right: 30px;
+
+	line-height: 44px;
+}
+
+td {
+	padding: 20px;
+	border-top: 1px solid #dfe2e5;
+}
