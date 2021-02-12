@@ -8,18 +8,27 @@
 /* Main Styling */
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	line-height: 1.4;
 	color: #888;
 }
 
+h1 {
+	font-size: 36px;
+	line-height: 44px;
+}
 h1,
 h3,
 h4,
 h5,
 p {
 	margin-bottom: 22px;
+}
+
+p,
+small {
+	font-family: 'Open Sans', sans-serif;
 }
 a {
 	text-decoration: none;
@@ -76,6 +85,14 @@ ul {
 .btn-outline:hover {
 	color: #000;
 	background: white;
+}
+
+.header {
+	text-align: center;
+	background: #cbe2c1;
+	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+	padding: 44px 0 22px 0;
+	min-width: 1000px;
 }
 
 /* Header */
@@ -217,4 +234,45 @@ small {
 	font-weight: 700;
 	text-transform: capitalize;
 	font-family: 'Lato', sans-serif;
+}
+
+/* Speakers Page*/
+.header p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 33px;
+}
+
+#speakers {
+	margin: 70px 0;
+}
+
+.speaker {
+	display: flex;
+	margin-bottom: 3rem;
+}
+
+.left-content {
+	margin-right: 30px;
+}
+.img-card {
+	border: 1px solid #dfe2e5;
+	border-radius: 5px;
+	margin-top: 88px;
+	padding: 22px;
+	text-align: center;
+	width: 300px;
+}
+
+.img-card img {
+	border-radius: 50%;
+	height: 130px;
+	margin: -66px 0 22px 0;
+	vertical-align: top;
+}
+
+.img-card a {
+	color: #648880;
+	font-family: 'Open Sans', sans-serif;
 }
