@@ -238,6 +238,13 @@ small {
 	#main-footer {
 		height: 50vh;
 	}
+
+	.flex-box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 70px;
+	}
 }
 
 .flex-container2 {
@@ -358,6 +365,10 @@ td {
 /* Venues Page */
 #places {
 	margin-top: 70px;
+}
+.location {
+	margin: 0;
+	padding: 0;
 }
 
 .flex-box {
