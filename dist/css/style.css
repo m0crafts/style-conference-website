@@ -439,6 +439,7 @@ textarea:focus {
 	outline-color: #648880;
 	outline-width: 0.5px;
 	border: none;
+	color: black;
 }
 
 select:focus {
