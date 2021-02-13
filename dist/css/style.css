@@ -231,6 +231,7 @@ small {
 #main-footer {
 	background: #293f50;
 	padding: 44px 0;
+	height: 100%;
 }
 
 @media (max-width: 768px) {
