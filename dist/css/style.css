@@ -200,8 +200,6 @@ a:hover {
 }
 .flex-container .item {
 	margin: 0 1rem 0 1rem;
-	height: 100%;
-	width: 33.33%;
 }
 .flex-container .item a img {
 	border-radius: 5px;
@@ -390,6 +388,28 @@ iframe {
 
 .input {
 	padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+	.flex-input {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		margin-bottom: 70px;
+	}
+
+	.box1 {
+		margin-bottom: 30px;
+	}
+
+	form input[type='submit'] {
+		padding: 7px;
+		border-radius: 5px;
+		width: 270px;
+		height: 32px;
+		border: 1px solid #bdbebe;
+	}
 }
 label {
 	display: block;
