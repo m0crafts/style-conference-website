@@ -402,11 +402,12 @@ form {
 	justify-content: flex-start;
 	align-items: flex-start;
 }
-form input[type='text'] {
-	padding: 5px;
+form input[type='text'],
+form input[type='email'] {
+	padding: 7px;
 	border-radius: 5px;
 	width: 270px;
-	height: 30px;
+	height: 32px;
 	border: 1px solid #bdbebe;
 }
 
