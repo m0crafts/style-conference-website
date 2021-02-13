@@ -402,7 +402,7 @@ form {
 	justify-content: flex-start;
 	align-items: flex-start;
 }
-form input {
+form input[type='text'] {
 	padding: 5px;
 	border-radius: 5px;
 	width: 270px;
