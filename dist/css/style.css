@@ -417,6 +417,7 @@ textarea {
 	border: 1px solid #bdbebe;
 	width: 270px;
 	height: 70px;
+	resize: none;
 }
 select {
 	padding: 7px 5px 7px 5px;
