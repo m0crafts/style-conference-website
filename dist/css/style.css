@@ -114,7 +114,6 @@ ul {
 #main-header {
 	height: 65vh;
 	width: 100%;
-	height: 100%;
 	background-color: #293f50;
 	color: #fff;
 }
@@ -398,7 +397,9 @@ iframe {
 		justify-content: center;
 		margin-bottom: 70px;
 	}
-
+	#navbar {
+		width: fit-content;
+	}
 	.box1 {
 		margin-bottom: 30px;
 	}
@@ -409,6 +410,34 @@ iframe {
 		width: 270px;
 		height: 32px;
 		border: 1px solid #bdbebe;
+	}
+
+	#main-header {
+		height: 30vh;
+		width: fit-content;
+		background-color: #293f50;
+		color: #fff;
+	}
+
+	.header {
+		text-align: center;
+		background: #cbe2c1;
+		background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+		padding: 44px 0 22px 0;
+	}
+	body {
+		overflow: visible;
+	}
+
+	.right-div {
+		align-content: flex-start;
+	}
+	.right-div ul {
+		display: flex;
+		justify-content: stretch;
+	}
+	.logo {
+		display: none;
 	}
 }
 label {
