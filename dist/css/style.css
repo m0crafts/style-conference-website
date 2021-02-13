@@ -36,7 +36,7 @@ small {
 }
 a {
 	text-decoration: none;
-	color: rgb(240, 215, 133);
+	color: rgb(214, 201, 158);
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -422,9 +422,14 @@ select {
 	border-radius: 5px;
 	width: 60px;
 	border: 1px solid #bdbebe;
+	color: #bdbebe;
 }
 select option {
 	color: #888;
+}
+
+input::placeholder {
+	color: #bdbebe;
 }
 
 form input:focus,
